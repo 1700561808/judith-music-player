@@ -1,8 +1,6 @@
 // Define the playlist
 const playlist = [
   { title: 'Yaya', artist: 'Black Sherif', file: 'Yaya.mp3' },
-  { title: 'Kafra', artist: 'Bisa Kdei', file: 'Bisa_Kdei_Kafra-1.mp3' },
-  { title: 'Highlife Mix', artist: 'Emmalex', file: 'Emmalex-Bisa-Kdei-Highlife-Mix.mp3' },
   { title: 'Kafra', artist: 'Bisa Kdei', file: 'Bisa_Kdei_Kafra-1.mp3' }
 ];
 
