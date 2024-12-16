@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.music-player {
+    width: 100%;
+    height: 100vh;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: wrap;
+}
+.player-controls {
+    background: rgb(130, 130, 224);
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.control-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: skyblue;
+    color: red;
+    box-shadow: 0 5px 10px rgba(13, 14, 11, 0.22);
+    border: none;
+    cursor: pointer;
+}
+.control-button:hover {
+    background-color: rgb(3, 101, 139);
+}
+.song-img{
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 60px rgba(13, 14, 11, 0.22);
+}
+h1{
+    font-size: 50px;
+    font-weight: 400px;
+    margin-top: 20px;
+}
+p{
+    font-size: 15px;
+    color: black;
+}
+#volume-slider {
+    width: 100%;
+    height: 5px;
+    background-color: #f53192;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #f53193;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 5px rgba(13, 14, 11, 0.22);
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls button{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: skyblue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: red;
+    box-shadow: 0 5px 5px rgba(191, 196, 181, 0.22);
+    cursor: pointer;
+}
+.controls button:hover{
+    background-color: rgb(3, 101, 139);
+}
+
+
+
+.playlist {
+    margin-bottom: 20px;
+}
+#playlist-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+#playlist-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+}
+#playlist-list li:last-child {
+    border-bottom: none;
+}
+#playlist-list li:hover {
+    background-color: #f2f2f2;
+}

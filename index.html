@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6cd42a2b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="music-player">
+        <div class="player-controls">
+            <nav>
+                <button id="show-song" class="control-button"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="addplay-list" class="control-button"><i class="fa-solid fa-bars"></i></button>
+           </nav>
+               <img src="images.jpg" class="song-img">
+                 <h1>Yaya</h1>
+                 <P>Black Sherif-Take Care of Yourself Blacko(EP)</P>
+                <audio controls>
+           <div class="playlist">
+                <ul id="playlist-list">
+                    <source src="Yaya.mp3" type="audio/mpeg">
+                    <source src="Bisa_Kdei_Kafra-1.mp3" type="audio/mpeg">
+                    <source src="Rema-Ginger-Me.mp3" type="audio/mpeg">
+                    <source src="Bisa_Kdei_Kafra-1.mp3" type="audio/mpeg">
+                </ul>
+           </div>
+                   </audio>
+                <input id="volume-slider" type="range" min="0" max="100" value="0">
+             <div class="controls">
+                  <button id="previous-button"><i class="fa-solid fa-backward"></i></button>
+                  <button id="play-pause-button"><i class="fa-solid fa-play"></i></button>
+                  <button id="next-button"><i class="fa-solid fa-forward"></i></button>
+             </div>
+        </div>
+    </div>
+        <script src="main.js"></script>
+</body>
+</html>
